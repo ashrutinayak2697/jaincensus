@@ -1,0 +1,78 @@
+body{
+	overflow-x: hidden;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 45% !important; 
+}
+.form-inline{
+	text-align: left;
+    width: 90%;
+    background-color: #ffcbe1;
+    padding: 22px 24px;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow-x: unset;
+
+}  
+.form-inline label{
+	font-size: 16px;
+}
+.form-inline input[type=text] 
+{
+	width: 266px;
+    height: 36px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 5px;
+}
+select{
+	    border: 1px solid black;
+    padding: 5px;
+}
+.form-group{
+	margin-top: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+
+
+	h1{
+
+			font-size: 20px;
+
+	}
+
+
+
+	.form-inline input[type=text]{width: 266px;}
+
+
+
+select{
+
+	width: 266px !important;
+
+}
+
+@media only screen and (max-width: 320px){
+
+    h1{
+            font-size: 20px;
+    }
+
+    .form-inline input[type=text]
+    {
+        width: 250px;
+    }
+    select{
+        width: 250px !important;
+    }
+
+
+}

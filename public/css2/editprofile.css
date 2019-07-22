@@ -1,0 +1,94 @@
+body{
+	overflow-x: hidden;
+}
+
+.form-inline{
+	text-align: left;
+	width: 95%;
+	background-color: #b4edfd;
+	padding: 20px;
+	margin: 0 5%;
+	overflow-x: unset;
+}
+.form-inline label{
+	font-size: 16px;
+}
+.form-inline input[type=text] {
+	width: 266px;
+    height: 36px;
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 5px;
+}
+select{
+	    border: 1px solid black;
+    padding: 5px;
+}
+.form-group{
+	margin-top: 20px;
+}
+
+ input[type=submit]{margin-top: 16px;
+    padding: 10px 100px;
+    background-color: #073e6e;
+    border: none;
+    color: white;
+    font-size: 23px
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+	h1{
+		font-size: 25px;
+	}
+
+}
+
+
+@media only screen and (max-width: 320px){
+
+	h1{
+			font-size: 20px;
+	}
+
+	.form-inline input[type=text]{
+	width: 250px;
+}
+
+select{
+	width: 250px !important;
+}
+
+ input[type=submit]{margin-top: 16px;
+    padding: 10px;
+    background-color: #073e6e;
+    border: none;
+    color: white;
+    font-size: 23px
+}
+
+
+
+}
+@media only screen and (max-width:990px){
+
+		h1{
+			font-size: 20px;
+	}
+
+	.form-inline input[type=text]{
+	width: 190px;
+}
+select{
+	width: 190px !important;
+}
+
+#txtmobileno{
+	width:150px !important;
+}
+
+}

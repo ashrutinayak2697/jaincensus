@@ -1,0 +1,25 @@
+
+label.error {
+	/*font-weight: bold;
+	padding: 2px 8px;
+	margin-top: 2px;
+	margin-bottom:5px;*/
+	/* background: url(../img/error.png) no-repeat scroll center center transparent; */
+	position: relative;
+	color: red;
+	display: inline-block;
+    height: 24px;
+    /* text-indent: -9999px; */
+    width: 100%;
+	padding: ;
+}
+label.valid {
+    /* background: url(../img/valid.png) no-repeat scroll center center transparent; */
+    display: inline-block;
+    height: 24px;
+    text-indent: -9999px;
+    width: 24px;
+	position: absolute;
+	margin: 0 auto;
+	padding: 0;
+}
