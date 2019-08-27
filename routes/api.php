@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::get('/cleareverything', function () {
+    $clearcache = Artisan::call('cache:clear');
+    echo "Cache cleared<br>";
+    $clearview = Artisan::call('view:clear');
+    echo "View cleared<br>";
+    $clearconfig = Artisan::call('config:cache');
+    echo "Config cleared<br>";
+    
+});
